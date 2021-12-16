@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div>
             <div>
-                <div className="banner my-4">
+                <div data-aos="zoom-in-left" className="banner my-4">
                     <h2 className="text-center my-5 ">MADANG SUPPORT PAGE</h2>
                     <p className="text-muted text-center my-5" >Great men knew this truth. Life to them was action. This is the service of others. A life lived for selfish gains, regardless of others needs, is worse than death. A bird or a beast collects food for itself and its young ones. It is some kind of work no doubt, but it is not that kind of work that man is expected to do. He is the roof and crown of creation and so he is supposed to live a larger life by applying himself to the service of humanity.   <br />
                     </p>

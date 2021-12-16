@@ -33,10 +33,10 @@ const OrderdDetails = () => {
                 {
                     orders.map(order =>
                         <div className="col-lg-6 col-sm-12 my-2 p-2">
-                            <div className="card mb-3" style={{ "max - width": "540px" }}>
+                            <div data-aos="fade-up-left" className="card mb-3" style={{ "max - width": "540px" }}>
                                 <div className="row g-0">
                                     <div className="col-md-4">
-                                        <img src={order.img} className="img-fluid rounded-start mt-3  ms-2" alt="..." />
+                                        <img data-aos="zoom-out-down" src={order.img} className="img-fluid rounded-start mt-3  ms-2" alt="..." />
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">

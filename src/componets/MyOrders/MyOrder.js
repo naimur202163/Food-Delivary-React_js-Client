@@ -38,7 +38,7 @@ const MyOrder = () => {
 
                         <h2 className="text-info">{EaxctItem[0]?.name}</h2>
                         <hr />
-                        <h3><img className="img-fluid img-rounded" src={EaxctItem[0]?.img} /></h3>
+                        <h3><img data-aos="zoom-out" className="img-fluid img-rounded" src={EaxctItem[0]?.img} /></h3>
                         <h3 className="text-muted">{EaxctItem[0]?.type}</h3>
                         <h4 className="text-muted">Price : {EaxctItem[0]?.price}$</h4>
                         <p>{EaxctItem[0]?.discription}</p>
@@ -46,7 +46,7 @@ const MyOrder = () => {
                 </div>
                 <div className="col-lg-5 col-sm-12 my-5" >
                     <div className="my-5">
-                        <h2>Order Now</h2>
+                        <h2 data-aos="zoom-out">Order Now</h2>
                         <div className="mx-auto my-5">
                             <button onClick={handleButton} className="btn btn-info">Order Now</button>
                             <Link to="/orderdetails"> <button className="btn btn-info">My-orders</button>
